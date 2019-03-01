@@ -2,5 +2,5 @@ video_game1 = VideoGame.new(title: "Hollow Knight", platform: "Nintendo Switch",
 video_game1.save
 video_game2 = VideoGame.new(title: "Super Smash Bros. Ultimate", platform: "Nintendo Switch", description: "Super Smash Bros. Ultimate is a fighting game for up to eight players in which characters from Nintendo games and from other third-party franchises must try to knock each other out of an arena. Each player has a percentage meter which raises when they take damage, making them easier to launch in the air and out of the arena.", players: 8, genre: "Fighting")
 video_game2.save
-video_game3 = VideoGame.new(title: "Jump Force", platform: "Playstation 4, Xbox One, PC", description: "Jump Force brings a multitude of Shonen Jump characters together to duke it out in arenas based on the popular Manga titles.", players: "Single - Multiplayer", genre: "Fighting")
+video_game3 = VideoGame.new(title: "Jump Force", platform: "Playstation 4, Xbox One, PC", description: "Jump Force brings a multitude of Shonen Jump characters together to duke it out in arenas based on the popular Manga titles.", players: 1, genre: "Fighting")
 video_game3.save
