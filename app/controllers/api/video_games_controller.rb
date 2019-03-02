@@ -34,4 +34,11 @@ class Api::VideoGamesController < ApplicationController
       )
     render 'show.json.jbuilder'
   end
+
+  def destroy
+    the_id = params[:id]
+    @video_game = VideoGame.find_by(id: the_id)
+    @video_game.destroy
+    render 'show.json.jbuilder'
+  end
 end
